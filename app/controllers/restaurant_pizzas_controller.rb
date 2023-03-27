@@ -1,6 +1,13 @@
 class RestaurantPizzasController < ApplicationController
     rescue_from ActiveRecord::RecordNotFound, with: :error_message
   
+
+    def index
+        restaurant_pizzas = RestaurantPizza.all
+        render json: restaurant_pizzas
+      end
+      
+
     def create
       Pizza.find(params[:pizza_id])
       Restaurant.find(params[:restaurant_id])
