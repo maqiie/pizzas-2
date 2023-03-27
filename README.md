@@ -4,7 +4,7 @@ This is an an API for tracking pizzas restaurants.
 ## Deployed Application 
 
 This is application has been deployed on render and is available through the following link:
--
+-https://pizzas-2.onrender.com/pizzas
 
 ## Application usage
 ### Dependancies
