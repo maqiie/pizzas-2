@@ -22,7 +22,7 @@ After ensuring that the dependancies are installed and working,follow these step
 ### Installation
 To install and use this API, follow these steps:
 1. Clone the repository
-   git clone https://github.com/maqiie/pizzas
+   git clone https://github.com/maqiie/pizzas-2
 2. install the dependencies and
    bundle install
 3. Set up the database:
